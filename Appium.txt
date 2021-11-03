@@ -1,0 +1,52 @@
+Appium:
+
+
+1- Instalar NodeJS
+2- Instalar Appium: 
+  npm install -g appium
+3- descargar el cliente de Appium.
+4- instalar Appium-doctor:
+  npm install Appium-doctor -g
+
+5-Correr Appium: 
+  npm appium
+
+6-Ver ayuda:
+  npx appium-doctor -h
+
+7-ver componentes faltantes:
+  npx appium-doctor --android
+  npx appium-doctor —ios
+
+
+
+
+********* CORRECCIÓN DE ERRORES COMUNES *********
+
+------------ Instalar JAVA_HOME Primera vez en Mac Os ------------
+
+1- abrir el editor de texto en la terminal:
+   vim ~/.bash_profile
+
+2- escribir:
+   export JAVA_HOME=$(/usr/libexec/java_home)
+
+3-salir del terminal:
+  scape
+  :wq
+
+4- escribir en la terminal:
+  source ~/.bash_profile
+
+5- ver la ruta:
+  echo $JAVA_HOME
+
+
+-Agregar JAVA_HOME al path
+  export ANDROID_HOME=/Applications/ADT/sdk
+  export PATH=$PATH:$ANDROID_HOME/bin
+
+
+-Agregar ANDROID_HOME al path
+  export ANDROID_HOME=/Users/User/Library/Android/sdk
+                      
