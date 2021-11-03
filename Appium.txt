@@ -1,5 +1,9 @@
 Appium:
 
+link-referencia: 
+https://www.youtube.com/watch?v=5vp2PBydhQQ&list=PLm2ylBViICRjtZ92uPgDMpwqrq0txAhWy&index=2&ab_channel=ArquitectoQASDETAutomatizacionPruebasSoftware
+
+
 
 1- Instalar NodeJS
 2- Instalar Appium: 
